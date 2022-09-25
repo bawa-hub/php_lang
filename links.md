@@ -9,3 +9,7 @@ https://github.com/ziadoz/awesome-php
 https://github.com/chiraggude/awesome-laravel
 https://make.wordpress.org/core/handbook/contribute/codebase/
 https://blog.devgenius.io/introducing-laravel-observers-8f0198c6c9c
+
+# projects --
+
+https://github.com/crater-invoice/crater#mobile-apps
