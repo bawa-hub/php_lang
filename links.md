@@ -1,5 +1,6 @@
 # Tutorials --
 
+https://www.geeksforgeeks.org/php-tutorials/
 https://phptherightway.com/
 
 # useful links --
