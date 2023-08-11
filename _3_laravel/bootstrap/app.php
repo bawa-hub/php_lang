@@ -10,6 +10,8 @@
 | the IoC container for the system binding all of the various parts.
 |
 */
+echo "bootstrap/app.php";
+echo "<br>";
 
 $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)

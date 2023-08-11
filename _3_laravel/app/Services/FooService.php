@@ -4,8 +4,15 @@ namespace App\Services;
 
 class FooService
 {
-    public function foo(BarService $barService)
+    protected $barService;
+
+    public function __construct(BarService $barService)
     {
-        return $barService->bar();
+        $this->barService = $barService;
+    }
+
+    public function foo()
+    {
+        return $this->barService->bar();
     }
 }
