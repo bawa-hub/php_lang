@@ -14,8 +14,8 @@ basics [done]
 properties [done]
 class_constants [done]
 autoloading_classes
-constructors_destructors [ongoing]
-visiblity and encapsulation
+constructors_destructors [done]
+visiblity and encapsulation [ongoing]
 inheritance
 scope_resolution_operator
 static keyword
