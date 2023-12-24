@@ -12,7 +12,7 @@ namespace NS {
     {
     }
 
-    echo ClassName::class;
+    echo ClassName::class; // NS\ClassName
 }
 
 /***
@@ -23,4 +23,15 @@ namespace NS {
  */
 
 //  Missing class name resolution
-print Does\Not\Exist::class;
+print Does\Not\Exist::class; // Does\Not\Exist
+
+
+// As of PHP 8.0.0, ::class may also be used on objects. This resolution happens at runtime, not compile time. Its effect is the same as calling get_class() on the object. 
+
+namespace NS {
+    class ClassName
+    {
+    }
+}
+$c = new ClassName();
+print $c::class; // NS\ClassName

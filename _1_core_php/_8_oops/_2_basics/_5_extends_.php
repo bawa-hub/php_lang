@@ -32,3 +32,5 @@ class ExtendClass extends SimpleClass
 
 $extended = new ExtendClass();
 $extended->displayVar();
+// Extending class
+// a default value

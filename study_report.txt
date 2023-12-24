@@ -1,4 +1,4 @@
-
+PHP DOCS:
 
 Basic syntax
 Types
@@ -9,7 +9,31 @@ Operators
 Control Structures
 Functions
 
-Classses and Objects
+oops:
+basics 
+properties
+class_constants
+autoloading_classes
+constructors_destructors
+visiblity and encapsulation
+inheritance
+scope_resolution_operator
+static keyword
+abstraction
+polymorphism
+traits
+anonymous Classes
+overloading
+object iteration
+magic methods
+final keyword
+object cloning
+comparing Objects
+late static binding
+objects and References
+object serialization
+covariance and contravariance
+
 Namespaces
 Enumerations
 Errors 
