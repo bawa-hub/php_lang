@@ -15,11 +15,11 @@ properties [done]
 class_constants [done]
 autoloading_classes
 constructors_destructors [done]
-visiblity and encapsulation [ongoing]
-inheritance
-scope_resolution_operator
-static keyword
-abstraction
+visiblity and encapsulation [done]
+inheritance [done]
+scope_resolution_operator [done]
+static keyword [done]
+abstraction [ongoing]
 polymorphism
 traits
 anonymous Classes
