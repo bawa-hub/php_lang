@@ -10,11 +10,11 @@ Control Structures
 Functions
 
 oops:
-basics 
-properties
-class_constants
+basics [done]
+properties [done]
+class_constants [done]
 autoloading_classes
-constructors_destructors
+constructors_destructors [ongoing]
 visiblity and encapsulation
 inheritance
 scope_resolution_operator
