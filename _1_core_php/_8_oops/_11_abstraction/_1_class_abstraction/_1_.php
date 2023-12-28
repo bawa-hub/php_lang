@@ -12,6 +12,7 @@
  * and follow the usual inheritance and signature compatibility rules. 
  */
 
+//  Example 1
 abstract class AbstractClass
 {
     // Force Extending class to define this method
@@ -58,3 +59,37 @@ echo $class1->prefixValue('FOO_') . "\n";
 $class2 = new ConcreteClass2;
 $class2->printOut();
 echo $class2->prefixValue('FOO_') . "\n";
+// ConcreteClass1
+// FOO_ConcreteClass1
+// ConcreteClass2
+// FOO_ConcreteClass2
+
+// Example 2
+abstract class AbstractClass
+{
+    // Our abstract method only needs to define the required arguments
+    abstract protected function prefixName($name);
+}
+
+class ConcreteClass extends AbstractClass
+{
+
+    // Our child class may define optional arguments not in the parent's signature
+    public function prefixName($name, $separator = ".")
+    {
+        if ($name == "Pacman") {
+            $prefix = "Mr";
+        } elseif ($name == "Pacwoman") {
+            $prefix = "Mrs";
+        } else {
+            $prefix = "";
+        }
+        return "{$prefix}{$separator} {$name}";
+    }
+}
+
+$class = new ConcreteClass;
+echo $class->prefixName("Pacman"), "\n";
+echo $class->prefixName("Pacwoman"), "\n";
+// Mr. Pacman
+// Mrs. Pacwoman
