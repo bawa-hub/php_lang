@@ -19,10 +19,10 @@ visiblity and encapsulation [done]
 inheritance [done]
 scope_resolution_operator [done]
 static keyword [done]
-abstraction [ongoing]
-polymorphism
+abstraction [done]
+polymorphism [done]
 traits
-anonymous Classes
+anonymous Classes [ongoing]
 overloading
 object iteration
 magic methods
