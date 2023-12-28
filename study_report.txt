@@ -22,16 +22,16 @@ static keyword [done]
 abstraction [done]
 polymorphism [done]
 traits
-anonymous Classes [ongoing]
+anonymous Classes [done]
 overloading
 object iteration
-magic methods
+magic methods []
 final keyword
-object cloning
+object cloning []
 comparing Objects
-late static binding
+late static binding []
 objects and References
-object serialization
+object serialization []
 covariance and contravariance
 
 Namespaces
