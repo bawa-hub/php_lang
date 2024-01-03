@@ -23,11 +23,11 @@ abstraction [done]
 polymorphism [done]
 traits [done]
 anonymous Classes [done]
-overloading
-object iteration
+overloading []
+object iteration []
 magic methods []
-final keyword
-object cloning []
+final keyword [done]
+object cloning [ongoing]
 comparing Objects [done]
 late static binding []
 objects and References [done]
