@@ -21,7 +21,7 @@ scope_resolution_operator [done]
 static keyword [done]
 abstraction [done]
 polymorphism [done]
-traits
+traits [ongoing]
 anonymous Classes [done]
 overloading
 object iteration

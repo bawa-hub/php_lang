@@ -5,6 +5,9 @@
 /**
  * If two Traits insert a method with the same name, a fatal error is produced, 
  * if the conflict is not explicitly resolved. 
+ * 
+ * To resolve naming conflicts between Traits used in the same class, the insteadof operator needs to be used to choose exactly one of the conflicting methods. 
+ * 
  */
 
 trait A

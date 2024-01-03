@@ -6,6 +6,7 @@
  * which in turn override inherited methods. 
  */
 
+//  Precedence Order Example
 class Base
 {
     public function sayHello()
@@ -30,3 +31,22 @@ class MyHelloWorld extends Base
 
 $o = new MyHelloWorld();
 $o->sayHello();
+// Hello World!
+
+// Alternate Precedence Order Example
+trait HelloWorld {
+    public function sayHello() {
+        echo 'Hello World!';
+    }
+}
+
+class TheWorldIsNotEnough {
+    use HelloWorld;
+    public function sayHello() {
+        echo 'Hello Universe!';
+    }
+}
+
+$o = new TheWorldIsNotEnough();
+$o->sayHello();
+// Hello Universe!

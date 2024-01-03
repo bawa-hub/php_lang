@@ -1,7 +1,5 @@
 <?php
 
-// Traits Composed from Traits
-
 trait Hello
 {
     public function sayHello()
@@ -31,3 +29,4 @@ class MyHelloWorld
 $o = new MyHelloWorld();
 $o->sayHello();
 $o->sayWorld();
+// Hello World!
