@@ -21,17 +21,17 @@ scope_resolution_operator [done]
 static keyword [done]
 abstraction [done]
 polymorphism [done]
-traits [ongoing]
+traits [done]
 anonymous Classes [done]
 overloading
 object iteration
 magic methods []
 final keyword
 object cloning []
-comparing Objects
+comparing Objects [done]
 late static binding []
-objects and References
-object serialization []
+objects and References [done]
+object serialization [done]
 covariance and contravariance
 
 Namespaces
