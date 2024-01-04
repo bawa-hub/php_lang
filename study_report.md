@@ -1,6 +1,7 @@
 PHP DOCS:
 
 - Basic syntax
+
 - Types:
 introduction
 type system
@@ -59,7 +60,7 @@ covariance and contravariance
 - Namespaces
 - Enumerations
 - Errors [ongoing]
-- Exceptions [ongoing]
+- Exceptions [done]
 - Fibers 
 - Generators
 - Attributes
