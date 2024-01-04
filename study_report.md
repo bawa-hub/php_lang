@@ -49,7 +49,7 @@ overloading []
 object iteration []
 magic methods []
 final keyword [done]
-object cloning [ongoing]
+object cloning []
 comparing Objects [done]
 late static binding []
 objects and References [done]
@@ -58,8 +58,8 @@ covariance and contravariance
 
 - Namespaces
 - Enumerations
-- Errors 
-- Exceptions
+- Errors [ongoing]
+- Exceptions [ongoing]
 - Fibers 
 - Generators
 - Attributes
