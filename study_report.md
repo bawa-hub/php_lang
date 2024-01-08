@@ -29,7 +29,24 @@ type juggling
 - Constants
 - Expressions
 - Operators
+
 - Control Structures
+if/else
+while
+do-while
+for
+foreach
+break/continue
+switch
+match
+declare
+return
+require
+include
+require_once
+include_once
+goto
+
 - Functions
 
 - oops:
