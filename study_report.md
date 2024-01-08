@@ -57,14 +57,14 @@ objects and References [done]
 object serialization [done]
 covariance and contravariance
 
-- Namespaces
-- Enumerations
-- Errors [ongoing]
-- Exceptions [done]
-- Fibers 
-- Generators
-- Attributes
-- References
+- Namespaces [partial_done]
+- Enumerations [partial_done]
+- Errors [partial_done]
+- Exceptions [partial_done]
+- Fibers []
+- Generators [partial_done]
+- Attributes [partial_done]
+- References [partial_done]
 
 - Predefined Variables
 - Predefined Exceptions
