@@ -1,12 +1,13 @@
 PHP DOCS:
 
+# part 1:
 - Basic syntax
 
 - Types:
 introduction
 type system
-null
-booleans
+null [done]
+booleans [done]
 integers
 float
 strings
@@ -31,24 +32,25 @@ type juggling
 - Operators
 
 - Control Structures
-if/else
-while
-do-while
-for
-foreach
-break/continue
-switch
-match
-declare
-return
-require
-include
-require_once
-include_once
-goto
+if/else [ongoing]
+while [ongoing]
+do-while [ongoing]
+for [ongoing]
+foreach [ongoing]
+break/continue [ongoing]
+switch [ongoing]
+match [ongoing]
+declare [ongoing]
+return [ongoing]
+require [ongoing]
+include [ongoing]
+require_once [ongoing]
+include_once [ongoing]
+goto [ongoing]
 
 - Functions
 
+# part 2:
 - oops:
 basics [done]
 properties [done]
@@ -74,6 +76,7 @@ objects and References [done]
 object serialization [done]
 covariance and contravariance
 
+# part 3:
 - Namespaces [partial_done]
 - Enumerations [partial_done]
 - Errors [partial_done]
@@ -83,10 +86,10 @@ covariance and contravariance
 - Attributes [partial_done]
 - References [partial_done]
 
+# part 4:
 - Predefined Variables
 - Predefined Exceptions
 - Predefined Interfaces and Classes
 - Predefined Attributes
-
 - Context Options and Parameters
 - Supported Protocols and Wrappers
