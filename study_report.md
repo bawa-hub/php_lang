@@ -26,12 +26,12 @@ iterables
 type declarations
 type juggling
 
-- Variables
-- Constants
-- Expressions
-- Operators
+- Variables [done]
+- Constants [done]
+- Expressions [ongoing]
+- Operators [ongoing]
 
-- Control Structures
+- Control Structures 
 if/else [done]
 while [done]
 do-while [done]
@@ -83,6 +83,8 @@ covariance and contravariance
 - Generators [partial_done]
 - Attributes [partial_done]
 - References [partial_done]
+
+# part 4:
 - Predefined Variables
 - Predefined Exceptions
 - Predefined Interfaces and Classes
