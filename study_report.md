@@ -28,8 +28,8 @@ type juggling
 
 - Variables [done]
 - Constants [done]
-- Expressions [ongoing]
-- Operators [ongoing]
+- Expressions [done]
+- Operators [partial_done]
 
 - Control Structures 
 if/else [done]
