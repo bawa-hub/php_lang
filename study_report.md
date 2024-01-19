@@ -32,23 +32,21 @@ type juggling
 - Operators
 
 - Control Structures
-if/else [ongoing]
-while [ongoing]
-do-while [ongoing]
-for [ongoing]
-foreach [ongoing]
-break/continue [ongoing]
-switch [ongoing]
-match [ongoing]
-declare [ongoing]
-return [ongoing]
-require [ongoing]
-include [ongoing]
-require_once [ongoing]
-include_once [ongoing]
-goto [ongoing]
+if/else [done]
+while [done]
+do-while [done]
+for [done]
+foreach [done]
+break/continue [done]
+switch [done]
+match [done]
+declare [partial_done]
+return [done]
+require and include [done]
+require_once and include_once [done]
+goto [done]
 
-- Functions
+- Functions [done]
 
 # part 2:
 - oops:
@@ -85,8 +83,6 @@ covariance and contravariance
 - Generators [partial_done]
 - Attributes [partial_done]
 - References [partial_done]
-
-# part 4:
 - Predefined Variables
 - Predefined Exceptions
 - Predefined Interfaces and Classes
