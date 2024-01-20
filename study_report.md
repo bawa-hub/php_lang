@@ -1,6 +1,6 @@
 PHP DOCS:
 
-# part 1:
+# part 1: fundamentals
 - Basic syntax
 
 - Types:
@@ -48,8 +48,7 @@ goto [done]
 
 - Functions [done]
 
-# part 2:
-- oops:
+# part 2: oops
 basics [done]
 properties [done]
 class_constants [done]
@@ -74,7 +73,7 @@ objects and References [done]
 object serialization [done]
 covariance and contravariance
 
-# part 3:
+# part 3: advance concepts
 - Namespaces [partial_done]
 - Enumerations [partial_done]
 - Errors [partial_done]
@@ -84,10 +83,34 @@ covariance and contravariance
 - Attributes [partial_done]
 - References [partial_done]
 
-# part 4:
-- Predefined Variables
-- Predefined Exceptions
-- Predefined Interfaces and Classes
-- Predefined Attributes
+# part 4: predefined
+- Predefined Variables [done]
+- Predefined Exceptions [done]
+- Predefined Interfaces and Classes [done]
+- Predefined Attributes [done]
 - Context Options and Parameters
 - Supported Protocols and Wrappers
+
+# part 5: security
+- basics
+- general considertions
+- installed as CGI binary
+- session security
+- filesystem security
+- database security
+- error reporting
+- user submitted data
+- hiding php
+- keeping current
+
+# part 6: features
+- http authentication with php
+- cookies
+- sessions
+- dealing with xforms
+- using remote files
+- connection handling
+- persistent database connections
+- command line usage
+- garbage collection
+- dtrace dynamic tracing
